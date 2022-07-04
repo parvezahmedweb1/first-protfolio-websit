@@ -5,6 +5,69 @@
   padding: 0;
   box-sizing: border-box;
 }
+img {
+  width: 100%;
+}
 body {
   font-family: "Poppins", sans-serif;
+}
+.container {
+  padding: 0 5rem;
+}
+.half-width {
+  width: 50%;
+}
+/* ! banner style here */
+.banner-section {
+  height: 100vh;
+  background-image: url(/images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.banner {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-right {
+  text-align: center;
+}
+.banner-bg {
+  width: 75%;
+}
+h1 {
+  font-size: 3.2rem;
+}
+h3 {
+  margin: 1rem 0;
+}
+.head-text-color {
+  color: orange;
+}
+.banner-left p {
+  margin-bottom: 2rem;
+  color: #6c757d;
+}
+
+.link-btn {
+  background-image: linear-gradient(
+    to right,
+    #dd5e89 0%,
+    #f7bb97 51%,
+    #dd5e89 100%
+  );
+  margin-top: 2rem;
+  padding: 0.6rem 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.link-btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
 }
