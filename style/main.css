@@ -23,6 +23,9 @@ h3,
 h4 {
   color: #242423;
 }
+.mb {
+  margin-bottom: 4rem;
+}
 /* ! banner style here */
 .banner-section {
   height: 100vh;
@@ -44,6 +47,9 @@ h4 {
 }
 h1 {
   font-size: 3.2rem;
+}
+h2 {
+  font-size: 2.5rem;
 }
 h3 {
   margin: 1rem 0;
@@ -87,4 +93,34 @@ h3 {
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: 90%;
+}
+/* ! experiences sytle here */
+.experiences {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  column-gap: 3rem;
+}
+.experiences-item {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 3rem 2rem;
+  border-radius: 0 1rem 1rem 0;
+}
+.experiences-item:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+.experiences-item h2 {
+  font-size: 2rem;
+}
+.experiences-item h3 {
+  color: orange;
+}
+.experiences-item p {
+  color: #6c757d;
+}
+#experiences-item-1 {
+  border-left: 5px solid #f25f5c;
+}
+#experiences-item-2 {
+  border-left: 5px solid #0a2463;
 }
