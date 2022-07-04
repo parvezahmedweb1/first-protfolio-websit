@@ -17,13 +17,20 @@ body {
 .half-width {
   width: 50%;
 }
+h1,
+h2,
+h3,
+h4 {
+  color: #242423;
+}
 /* ! banner style here */
 .banner-section {
   height: 100vh;
   background-image: url(/images/top-banner.png);
   background-repeat: no-repeat;
 }
-.banner {
+.banner,
+.dream-big {
   height: inherit;
   display: flex;
   justify-content: center;
@@ -44,7 +51,8 @@ h3 {
 .head-text-color {
   color: orange;
 }
-.banner-left p {
+.banner-left p,
+.dream-right p {
   margin-bottom: 2rem;
   color: #6c757d;
 }
@@ -56,6 +64,7 @@ h3 {
     #f7bb97 51%,
     #dd5e89 100%
   );
+  font-weight: 700;
   margin-top: 2rem;
   padding: 0.6rem 2.5rem;
   text-align: center;
@@ -70,4 +79,12 @@ h3 {
 .link-btn:hover {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
+}
+/*  ! dream big style here */
+.dream-big-section {
+  height: 90vh;
+  background-image: url(/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 90%;
 }
