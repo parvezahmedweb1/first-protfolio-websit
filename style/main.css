@@ -29,7 +29,7 @@ h4 {
 /* ! banner style here */
 .banner-section {
   height: 100vh;
-  background-image: url(/images/top-banner.png);
+  background-image: url(../images/top-banner.png);
   background-repeat: no-repeat;
 }
 .banner,
@@ -89,14 +89,14 @@ h3 {
 /*  ! dream big style here */
 .dream-big-section {
   height: 90vh;
-  background-image: url(/images/dream-bg.png);
+  background-image: url(../images/dream-bg.png);
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: 90%;
 }
 /* ! experiences sytle here */
 .experiecces-section {
-  background-image: url(/images/exp-bg.png);
+  background-image: url(../images/exp-bg.png);
   background-repeat: no-repeat;
   background-position-y: 95%;
 }
