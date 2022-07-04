@@ -95,6 +95,11 @@ h3 {
   background-position-y: 90%;
 }
 /* ! experiences sytle here */
+.experiecces-section {
+  background-image: url(/images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position-y: 95%;
+}
 .experiences {
   margin-top: 3rem;
   display: flex;
